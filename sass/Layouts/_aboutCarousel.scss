@@ -1,0 +1,33 @@
+  .aboutCarousel{
+    // background-image: url(../img/yellow_top_wave_01.png);
+    // background-position: top;
+    // background-repeat: no-repeat;
+    // padding: $pd-3 0;
+    padding-top: $pd-3;
+
+    h1{
+      @include styleText($fs-2,$fw-2,$color-purple-1);
+      margin-bottom: $mb-0;
+    }
+
+    p{
+      @include styleText($fs-3,$fw-3,$color-dark-2);
+      line-height: $lh-2;
+    }
+
+    // background-image: url(../img/Violet_top_left_wave.png);
+    // background-position: bottom;
+    
+    .bg-carousel{
+      .bg-top{
+        position: absolute;
+        top: 0;
+        // left: 0;
+        // background-size: cover;
+        // object-fit: cover;
+      }
+
+
+    }
+
+  }

@@ -1,0 +1,27 @@
+//Helper luôn cài đặct trước
+// variables
+@import "./Helper/variables";
+@import "./Helper/mixin";
+
+//Base
+@import "./Base/reset";
+
+//Components (đặt trước hay sau Layouts đều đc) 
+@import "./Components/button";
+
+//Layouts
+@import "./Layouts/header";
+@import "./Layouts/aboutCarousel";
+@import "./Layouts/students";
+@import "./Layouts/yourCourse";
+@import "./Layouts/footer";
+
+
+
+
+//Cái nào phần riêng đặt cuối cùng (đè code phần chung)
+//Pages
+
+
+
+

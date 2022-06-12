@@ -1,0 +1,31 @@
+.contact__form{
+  width: 100%;
+  box-shadow: 0 30px 30px -10px #00000033;
+  margin: 0 auto;
+
+  h4{
+    @include styleText($fs-6,$fw-3,$color-dark-2);
+    line-height: $lh-1;
+    margin-bottom: 50px;
+  }
+
+  .form__up{
+    display: flex;
+
+    .form__up__left{
+      padding-right: 1em;
+    }
+
+  }
+
+
+
+
+
+
+
+
+
+
+}
+

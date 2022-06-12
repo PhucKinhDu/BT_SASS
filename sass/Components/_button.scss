@@ -1,0 +1,14 @@
+.btn-header{
+  @include styleText($fs-8,$fw-1,$color-white-1);
+  @include styleButton($color-purple-1, $pd-0, $pd-1, none, $radius-0, $ls-0);
+  transition: all .5s;
+  &:hover{
+    @include styleButtonHover($color-white-1, $color-purple-1, $color-purple-1);
+    border: 1px solid $color-purple-1;
+  }
+}
+
+// .btn-footer-down{
+//   @include styleText($fs-0,$fw-0,$color-dark-1);
+//   @include styleButton($color-white-1,);
+// }

@@ -1,0 +1,107 @@
+footer{
+  .background-img{
+    background-image: url("../../img/footer_background.jpg");
+    background-size: cover;
+    background-position: center;
+  }
+
+  .footer-list{
+    display: flex;
+    width: 100%;
+  }
+
+  .contact-us{
+    h5{
+      @include styleText($fs-5,$fw-3,$color-white-1);
+    }
+
+    li{
+      list-style-type: none;
+      @include styleText($fs-7,$fw-0,$color-white-1);
+      padding-left: 0.8em;
+      line-height: $lh-1;
+
+      a{
+        padding: 0 15px 0 0;
+        color: $color-white-1;
+        transition: all .3s;
+        &:hover{
+          color: $color-dark-2;
+        }
+      }
+
+    }
+  }
+
+  .Quick-Links{
+    h5{
+      @include styleText($fs-5,$fw-3,$color-white-1);
+    }
+
+    li{
+      list-style-type: none;
+      @include styleText($fs-7,$fw-0,$color-white-1);
+      padding-left: 0.8em;
+      line-height: $lh-1;
+
+      a{
+        display: block;
+        text-decoration: none;
+        color: $color-white-1;
+        transition: all .3s;
+        &:hover{
+          opacity: 0.8;
+        }
+      }
+    }
+  }
+
+  .About{
+
+    //kế thừa
+    @extend .Quick-Links;
+
+    // h5{
+    //   @include styleText($fs-5,$fw-3,$color-white-1);
+    // }
+
+    // li{
+    //   list-style-type: none;
+    //   @include styleText($fs-7,$fw-0,$color-white-1);
+    //   padding-left: 0.8em;
+    //   line-height: $lh-1;
+
+    //   a{
+    //     display: block;
+    //     text-decoration: none;
+    //     color: $color-white-1;
+    //     transition: all .3s;
+    //     &:hover{
+    //       opacity: 0.5;
+    //     }
+    //   }
+    // }
+
+
+
+  }
+
+  .Newsletter{
+    h5{
+      @include styleText($fs-5,$fw-3,$color-white-1);
+    }
+
+    // .footer-button{
+    //   .btn-footer-down{
+    //     span{
+    //       padding: 10px 40px;
+    //     }
+    //   }
+    // }
+
+  }
+  
+
+
+
+}
