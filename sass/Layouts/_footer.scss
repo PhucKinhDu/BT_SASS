@@ -91,13 +91,21 @@ footer{
       @include styleText($fs-5,$fw-3,$color-white-1);
     }
 
-    // .footer-button{
-    //   .btn-footer-down{
-    //     span{
-    //       padding: 10px 40px;
-    //     }
-    //   }
-    // }
+    .footer-button{
+      .your__email{
+        margin: 5px;
+        .form-control{
+          border-radius: $bd-0;
+          background-color: $color-purple-1;
+          border: 1px solid $color-white-1;
+          color: $color-white-1;
+          
+
+        }
+        
+
+      }
+    }
 
   }
   
