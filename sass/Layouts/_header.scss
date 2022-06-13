@@ -4,6 +4,7 @@ header{
   left: 0;
   width: 100%;
   z-index: 100;
+  background-color: transparent;
 
 
   .nav-item{
@@ -33,5 +34,16 @@ header{
   }
 
 
-
 }
+
+
+//Responsive
+
+@include responsive("extra-large") {
+    header{
+        .navbar-toggler{
+          background-color: $color-dark-1;
+        }
+    }
+}
+

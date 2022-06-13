@@ -55,4 +55,11 @@ $bd-0: 50px;
 $radius-0: 50px;
 $radius-1: 10px;
 
-//Box-shadow
+
+//Break points
+$breakpoints: (
+  "extra-large": 1200px,
+  "large": 992px,
+  "medium": 768px,
+  "small": 576px
+)
